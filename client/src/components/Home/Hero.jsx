@@ -4,12 +4,12 @@ const Hero = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   const logos = [
-    "https://saasly.prebuiltui.com/assets/companies-logo/instagram.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/framer.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/microsoft.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/huawei.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/walmart.svg",
-  ];
+  "https://cdn.simpleicons.org/instagram",
+  "https://cdn.simpleicons.org/framer",
+  "https://cdn.simpleicons.org/facebook",
+  "https://cdn.simpleicons.org/huawei",
+  "https://cdn.simpleicons.org/replit"
+];
   return (
     <>
       <div className="min-h-screen pb-20">
@@ -216,7 +216,7 @@ const Hero = () => {
           </p>
 
           <div
-            className="flex flex-wrap justify-between max-sm:justify-center gap-6 max-w-3xl w-full mx-auto py-4"
+            className="flex flex-wrap justify-between max-sm:justify-center gap-6 max-w-3xl w-full mx-auto py-8"
             id="logo-container"
           >
             {logos.map((logo, index) => (

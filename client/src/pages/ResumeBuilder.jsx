@@ -94,7 +94,9 @@ const ResumeBuilder = () => {
           </div>
 
           {/* Right Panel - Preview */}
-          <div></div>
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>
